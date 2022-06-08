@@ -4,7 +4,7 @@
 # LICENSE file in the root directory of this source tree.
 
 require "json"
-
+#this is just for test purpose
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 version = package['version']
 
